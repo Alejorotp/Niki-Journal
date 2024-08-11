@@ -1,0 +1,2 @@
+# Niki-Journal
+A journal

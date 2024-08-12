@@ -14,7 +14,7 @@ class OpeningScreen extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
+          children: [
             const Text(
               'Welcome to',
               style: TextStyle(
@@ -34,7 +34,7 @@ class OpeningScreen extends StatelessWidget {
             TextButton(
               onPressed: () {
                 // Navigate to the next screen
-                Navigator.push(
+                Navigator.pushReplacement(
                   context,
                   MaterialPageRoute(
                     builder: (context) => const HomeScreen(),
